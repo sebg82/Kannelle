@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AFEA66234E3AD700C8A535 /* CGImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFEA65234E3AD700C8A535 /* CGImage+Extension.swift */; };
+		09AFEA76234E4D9A00C8A535 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFEA72234E4D9900C8A535 /* UIImage+extension.swift */; };
 		09DED602234E097E00FECFA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED601234E097E00FECFA0 /* AppDelegate.swift */; };
 		09DED604234E097E00FECFA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED603234E097E00FECFA0 /* SceneDelegate.swift */; };
-		09DED606234E097E00FECFA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED605234E097E00FECFA0 /* ViewController.swift */; };
 		09DED609234E097E00FECFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DED607234E097E00FECFA0 /* Main.storyboard */; };
 		09DED60B234E097F00FECFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DED60A234E097F00FECFA0 /* Assets.xcassets */; };
 		09DED60E234E097F00FECFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DED60C234E097F00FECFA0 /* LaunchScreen.storyboard */; };
+		09DED616234E0BF400FECFA0 /* VideoPlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED615234E0BF400FECFA0 /* VideoPlayerCollectionViewCell.swift */; };
+		09DED619234E0E6900FECFA0 /* AVAsset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED618234E0E6900FECFA0 /* AVAsset+Extension.swift */; };
+		09DED61B234E0EFC00FECFA0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED61A234E0EFC00FECFA0 /* Constants.swift */; };
+		09DED61E234E0F7000FECFA0 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED61D234E0F7000FECFA0 /* ContentManager.swift */; };
+		09DED620234E182900FECFA0 /* VideoPlayer+UICollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED61F234E182900FECFA0 /* VideoPlayer+UICollectionViewDelegate.swift */; };
+		09DED622234E186900FECFA0 /* VideoRecorder+AVCaptureFileOutputRecordingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED621234E186900FECFA0 /* VideoRecorder+AVCaptureFileOutputRecordingDelegate.swift */; };
+		09DED624234E194E00FECFA0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED623234E194E00FECFA0 /* CameraView.swift */; };
+		09DED626234E1C7C00FECFA0 /* UIInterfaceOrientation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED625234E1C7C00FECFA0 /* UIInterfaceOrientation+Extension.swift */; };
+		09DED62B234E253100FECFA0 /* VideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED62A234E253100FECFA0 /* VideoRecorder.swift */; };
+		09DED62D234E263000FECFA0 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DED62C234E263000FECFA0 /* VideoPlayer.swift */; };
+		09DED630234E29C700FECFA0 /* VideoRecorder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DED62F234E29C700FECFA0 /* VideoRecorder.storyboard */; };
+		09DED632234E29F400FECFA0 /* VideoPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DED631234E29F400FECFA0 /* VideoPlayer.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09AFEA65234E3AD700C8A535 /* CGImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+Extension.swift"; sourceTree = "<group>"; };
+		09AFEA72234E4D9900C8A535 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
 		09DED5FE234E097E00FECFA0 /* Kannelle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kannelle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DED601234E097E00FECFA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09DED603234E097E00FECFA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09DED605234E097E00FECFA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09DED608234E097E00FECFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09DED60A234E097F00FECFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DED60D234E097F00FECFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09DED60F234E097F00FECFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DED615234E0BF400FECFA0 /* VideoPlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		09DED618234E0E6900FECFA0 /* AVAsset+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVAsset+Extension.swift"; sourceTree = "<group>"; };
+		09DED61A234E0EFC00FECFA0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		09DED61D234E0F7000FECFA0 /* ContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManager.swift; sourceTree = "<group>"; };
+		09DED61F234E182900FECFA0 /* VideoPlayer+UICollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoPlayer+UICollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		09DED621234E186900FECFA0 /* VideoRecorder+AVCaptureFileOutputRecordingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoRecorder+AVCaptureFileOutputRecordingDelegate.swift"; sourceTree = "<group>"; };
+		09DED623234E194E00FECFA0 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		09DED625234E1C7C00FECFA0 /* UIInterfaceOrientation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIInterfaceOrientation+Extension.swift"; sourceTree = "<group>"; };
+		09DED62A234E253100FECFA0 /* VideoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecorder.swift; sourceTree = "<group>"; };
+		09DED62C234E263000FECFA0 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		09DED62F234E29C700FECFA0 /* VideoRecorder.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoRecorder.storyboard; sourceTree = "<group>"; };
+		09DED631234E29F400FECFA0 /* VideoPlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoPlayer.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +84,74 @@
 			children = (
 				09DED601234E097E00FECFA0 /* AppDelegate.swift */,
 				09DED603234E097E00FECFA0 /* SceneDelegate.swift */,
-				09DED605234E097E00FECFA0 /* ViewController.swift */,
-				09DED607234E097E00FECFA0 /* Main.storyboard */,
-				09DED60A234E097F00FECFA0 /* Assets.xcassets */,
 				09DED60C234E097F00FECFA0 /* LaunchScreen.storyboard */,
+				09DED60A234E097F00FECFA0 /* Assets.xcassets */,
 				09DED60F234E097F00FECFA0 /* Info.plist */,
+				09DED62E234E297800FECFA0 /* Utils */,
+				09DED627234E24E800FECFA0 /* Modules */,
+				09DED61C234E0F4600FECFA0 /* ContentManager */,
+				09DED617234E0E5500FECFA0 /* Extensions */,
 			);
 			path = Kannelle;
+			sourceTree = "<group>";
+		};
+		09DED617234E0E5500FECFA0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09DED618234E0E6900FECFA0 /* AVAsset+Extension.swift */,
+				09DED625234E1C7C00FECFA0 /* UIInterfaceOrientation+Extension.swift */,
+				09AFEA65234E3AD700C8A535 /* CGImage+Extension.swift */,
+				09AFEA72234E4D9900C8A535 /* UIImage+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09DED61C234E0F4600FECFA0 /* ContentManager */ = {
+			isa = PBXGroup;
+			children = (
+				09DED61D234E0F7000FECFA0 /* ContentManager.swift */,
+			);
+			path = ContentManager;
+			sourceTree = "<group>";
+		};
+		09DED627234E24E800FECFA0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				09DED607234E097E00FECFA0 /* Main.storyboard */,
+				09DED628234E24F700FECFA0 /* VideoPlayer */,
+				09DED629234E250500FECFA0 /* VideoRecorder */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		09DED628234E24F700FECFA0 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				09DED631234E29F400FECFA0 /* VideoPlayer.storyboard */,
+				09DED62C234E263000FECFA0 /* VideoPlayer.swift */,
+				09DED61F234E182900FECFA0 /* VideoPlayer+UICollectionViewDelegate.swift */,
+				09DED615234E0BF400FECFA0 /* VideoPlayerCollectionViewCell.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		09DED629234E250500FECFA0 /* VideoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				09DED62F234E29C700FECFA0 /* VideoRecorder.storyboard */,
+				09DED62A234E253100FECFA0 /* VideoRecorder.swift */,
+				09DED621234E186900FECFA0 /* VideoRecorder+AVCaptureFileOutputRecordingDelegate.swift */,
+				09DED623234E194E00FECFA0 /* CameraView.swift */,
+			);
+			path = VideoRecorder;
+			sourceTree = "<group>";
+		};
+		09DED62E234E297800FECFA0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				09DED61A234E0EFC00FECFA0 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +212,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DED630234E29C700FECFA0 /* VideoRecorder.storyboard in Resources */,
 				09DED60E234E097F00FECFA0 /* LaunchScreen.storyboard in Resources */,
 				09DED60B234E097F00FECFA0 /* Assets.xcassets in Resources */,
 				09DED609234E097E00FECFA0 /* Main.storyboard in Resources */,
+				09DED632234E29F400FECFA0 /* VideoPlayer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +227,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DED606234E097E00FECFA0 /* ViewController.swift in Sources */,
+				09AFEA76234E4D9A00C8A535 /* UIImage+extension.swift in Sources */,
+				09DED620234E182900FECFA0 /* VideoPlayer+UICollectionViewDelegate.swift in Sources */,
+				09DED616234E0BF400FECFA0 /* VideoPlayerCollectionViewCell.swift in Sources */,
+				09DED62D234E263000FECFA0 /* VideoPlayer.swift in Sources */,
+				09DED624234E194E00FECFA0 /* CameraView.swift in Sources */,
+				09DED619234E0E6900FECFA0 /* AVAsset+Extension.swift in Sources */,
 				09DED602234E097E00FECFA0 /* AppDelegate.swift in Sources */,
+				09DED626234E1C7C00FECFA0 /* UIInterfaceOrientation+Extension.swift in Sources */,
 				09DED604234E097E00FECFA0 /* SceneDelegate.swift in Sources */,
+				09DED61B234E0EFC00FECFA0 /* Constants.swift in Sources */,
+				09DED61E234E0F7000FECFA0 /* ContentManager.swift in Sources */,
+				09AFEA66234E3AD700C8A535 /* CGImage+Extension.swift in Sources */,
+				09DED622234E186900FECFA0 /* VideoRecorder+AVCaptureFileOutputRecordingDelegate.swift in Sources */,
+				09DED62B234E253100FECFA0 /* VideoRecorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebg.Kannelle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebg.Kannelle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
